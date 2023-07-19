@@ -1,37 +1,58 @@
-﻿using NdiayeShop.Models;
+﻿using BethanysPieShop.Models;
 using Microsoft.AspNetCore.Mvc;
+using NdiayeShop.Models;
 using NdiayeShop.ViewModels;
 
 namespace NdiayeShop.Controllers
 {
-    public class PieController:Controller
+    public class PieController : Controller
     {
         private readonly IPieRepository _pieRepository;
         private readonly ICategoryRepository _categoryRepository;
 
-        public PieController(IPieRepository pieRepository , ICategoryRepository categoryRepository)
+        public PieController(IPieRepository pieRepository, ICategoryRepository categoryRepository)
         {
             _pieRepository = pieRepository;
-           _categoryRepository = categoryRepository;
+            _categoryRepository = categoryRepository;
         }
 
+        //public IActionResult List()
+        //{
+        //    //ViewBag.CurrentCategory = "Cheese cakes";
 
-        public IActionResult List()
+        //    //return View(_pieRepository.AllPies);
+
+        //    PieListViewModel piesListViewModel = new PieListViewModel(_pieRepository.AllPies, "Cheese cakes");
+        //    return View(piesListViewModel);
+        //}
+
+        public ViewResult List(string category)
         {
-            //ViewBag.currentCategory = "Cheese";
-            //return View(_pieRepository.AllPies);
+            IEnumerable<Pie> pies;
+            string? currentCategory;
 
-            PieListViewModel pieListViewModel = new PieListViewModel
-                (_pieRepository.AllPies, "Cake Chess");
-            return View(pieListViewModel);
+            if (string.IsNullOrEmpty(category))
+            {
+                pies = _pieRepository.AllPies.OrderBy(p => p.PieId);
+                currentCategory = "All pies";
+            }
+            else
+            {
+                pies = _pieRepository.AllPies.Where(p => p.Category.CategoryName == category)
+                    .OrderBy(p => p.PieId);
+                currentCategory = _categoryRepository.AllCategories.FirstOrDefault(c => c.CategoryName == category)?.CategoryName;
+            }
+
+            return View(new PieListViewModel(pies, currentCategory));
         }
 
         public IActionResult Details(int id)
         {
-          var selectedPie =   _pieRepository.GetPieById(id);
-            if (selectedPie == null)
+            var pie = _pieRepository.GetPieById(id);
+            if (pie == null)
                 return NotFound();
-            return View(selectedPie);
+
+            return View(pie);
         }
     }
 }
