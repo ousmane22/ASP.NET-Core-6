@@ -25,5 +25,13 @@ namespace NdiayeShop.Controllers
                 (_pieRepository.AllPies, "Cake Chess");
             return View(pieListViewModel);
         }
+
+        public IActionResult Details(int id)
+        {
+          var selectedPie =   _pieRepository.GetPieById(id);
+            if (selectedPie == null)
+                return NotFound();
+            return View(selectedPie);
+        }
     }
 }
