@@ -83,3 +83,4 @@ C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop\bin\
 C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop\obj\Debug\net6.0\NdiayeShop.csproj.CopyComplete
+C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop\bin\Debug\net6.0\libman.json

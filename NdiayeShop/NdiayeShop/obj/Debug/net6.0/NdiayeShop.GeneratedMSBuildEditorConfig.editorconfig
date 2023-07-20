@@ -16,12 +16,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/CheckoutPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Order/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Order/CheckoutComplete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcQ2hlY2tvdXRDb21wbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Pie/Details.cshtml]
