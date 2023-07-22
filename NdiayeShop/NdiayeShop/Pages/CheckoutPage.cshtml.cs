@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using NdiayeShop.Models;
 
 namespace NdiayeShop.Pages
 {

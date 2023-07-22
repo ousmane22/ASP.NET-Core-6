@@ -32,9 +32,10 @@ namespace NdiayeShop.Models
                 return _ndiayeShopDbContext.Pies.FirstOrDefault(p => p.PieId == pieId);   
         }
 
+
         public IEnumerable<Pie> SearchPies(string searchQuery)
         {
-            throw new NotImplementedException();
+            return _ndiayeShopDbContext.Pies.Where(p => p.Name.Contains(searchQuery));
         }
     }
 }

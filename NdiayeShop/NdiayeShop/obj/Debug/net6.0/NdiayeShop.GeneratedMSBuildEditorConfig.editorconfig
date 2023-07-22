@@ -16,8 +16,48 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\OUSMANE\Desktop\Development\Web\ASP.NET_CORE\NdiayeShop\NdiayeShop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/AppLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEFwcExheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/AppRouter.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEFwcFJvdXRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/PieCard.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFBpZUNhcmQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/SearchBlazor.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXFNlYXJjaEJsYXpvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXF9JbXBvcnRzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/App/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXBwXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/CheckoutCompletePage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRDb21wbGV0ZVBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/CheckoutPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2hlY2tvdXRQYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/Shared/_PageLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9QYWdlTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Contact/Index.cshtml]
@@ -42,6 +82,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Pie/List.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Pie/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGllXFNlYXJjaC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/OUSMANE/Desktop/Development/Web/ASP.NET_CORE/NdiayeShop/NdiayeShop/Views/Shared/Components/CategoryMenu/Default.cshtml]

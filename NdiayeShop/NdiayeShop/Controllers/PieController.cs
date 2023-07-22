@@ -54,5 +54,10 @@ namespace NdiayeShop.Controllers
 
             return View(pie);
         }
+
+        public IActionResult Search(int id)
+        {
+            return View();
+        }
     }
 }
