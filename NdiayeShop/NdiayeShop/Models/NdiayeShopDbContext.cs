@@ -1,9 +1,10 @@
 ﻿using BethanysPieShop.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace NdiayeShop.Models
 {
-    public class NdiayeShopDbContext:DbContext
+    public class NdiayeShopDbContext:IdentityDbContext
     {
         public NdiayeShopDbContext(DbContextOptions<NdiayeShopDbContext> options)
             :base(options)

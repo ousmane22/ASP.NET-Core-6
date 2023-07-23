@@ -2,8 +2,11 @@ using NdiayeShop.Models;
 using Microsoft.EntityFrameworkCore;
 using BethanysPieShop.Models;
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString
+    ("NdiayeShopConnection") ?? throw new InvalidOperationException("Connection string 'NdiayeShopConnection' not found.");
 
 builder.Services.AddControllersWithViews()
     .AddJsonOptions(options =>
@@ -23,9 +26,11 @@ builder.Services.AddSession();
 builder.Services.AddHttpContextAccessor();
 
 builder.Services.AddDbContext<NdiayeShopDbContext>(options => {
-    options.UseSqlServer(
-        builder.Configuration["ConnectionStrings:NdiayeShopConnection"]);
+    options.UseSqlServer(connectionString);
 });
+
+builder.Services.AddDefaultIdentity<IdentityUser>()
+    .AddEntityFrameworkStores<NdiayeShopDbContext>();
 
 builder.Services.AddServerSideBlazor();
 var app = builder.Build();
@@ -38,6 +43,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseStaticFiles();
 app.UseSession();
+app.UseAuthentication();
+app.UseAuthorization();
 
 //app.MapDefaultControllerRoute();
 
