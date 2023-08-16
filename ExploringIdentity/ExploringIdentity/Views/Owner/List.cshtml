@@ -1,0 +1,11 @@
+﻿@model IEnumerable<Owner>
+
+
+    @foreach(var owners in Model)
+    {
+        <p>@owners.ID</p>
+        <p>@owners.Name</p>
+        <p>@owners.PhoneNumber</p>
+        <p>@owners.DateOfBirth</p>
+    }
+
