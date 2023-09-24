@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\OUSMANE\\Desktop\\Development\\Web\\ASP.NET_CORE\\AuthenticationAndAuthorization\\Globomantics\\wwwroot\\img\\globomantics-logo-darkblue.png",
+      "PackagePath": "staticwebassets\\img\\globomantics-logo-darkblue.png"
+    },
+    {
+      "Id": "C:\\Users\\OUSMANE\\Desktop\\Development\\Web\\ASP.NET_CORE\\AuthenticationAndAuthorization\\Globomantics\\wwwroot\\qr.js",
+      "PackagePath": "staticwebassets\\qr.js"
+    },
+    {
+      "Id": "C:\\Users\\OUSMANE\\Desktop\\Development\\Web\\ASP.NET_CORE\\AuthenticationAndAuthorization\\Globomantics\\wwwroot\\qrcode.min.js",
+      "PackagePath": "staticwebassets\\qrcode.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Globomantics.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Globomantics.props",
+      "PackagePath": "build\\Globomantics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Globomantics.props",
+      "PackagePath": "buildMultiTargeting\\Globomantics.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Globomantics.props",
+      "PackagePath": "buildTransitive\\Globomantics.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
